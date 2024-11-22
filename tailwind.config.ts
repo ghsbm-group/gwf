@@ -11,7 +11,8 @@ const config: Config = {
   	extend: {
   		colors: {
   			background: 'var(--background)',
-  			foreground: 'var(--foreground)'
+  			foreground: 'var(--foreground)',
+			'lila': '#aaa8d4',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -20,6 +21,5 @@ const config: Config = {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
 };
 export default config;
