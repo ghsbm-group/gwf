@@ -13,6 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Lock, Mail } from "lucide-react";
+import { OAuth2 } from "../social-login/OAuth2";
 
 const LoginPage = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -67,6 +68,7 @@ const LoginPage = () => {
               Sign in
             </Button>
           </form>
+          <OAuth2 contentGoogle="Sign in with Google" contentFacebook="Sign in with Facebook"/>
         </CardContent>
         <CardFooter className="flex flex-col space-y-2">
           <Button
