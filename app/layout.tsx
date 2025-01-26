@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { ReactNode } from "react";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Find a Mountain Guide",
@@ -18,8 +20,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className={`${inter.className}`}>
-        {/**Navbar */}
-        <main className="">{children}</main>
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
