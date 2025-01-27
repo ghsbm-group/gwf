@@ -24,7 +24,7 @@ export default function GuideDashboard() {
       {/* What's Next Section */}
       <div className="bg-white rounded-lg p-6">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-base font-semibold">What's next?</h2>
+          <h2 className="text-base font-semibold">What&apos;s next?</h2>
           <span className="text-sm text-gray-600">0 of 4</span>
         </div>
         <div className="space-y-4">
